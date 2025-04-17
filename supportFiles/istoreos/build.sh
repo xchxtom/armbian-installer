@@ -98,6 +98,6 @@ xorriso \
     "${HOME}/LIVE_BOOT/staging"
 
 echo Copy output
-cp -v $HOME/LIVE_BOOT/debian-custom.iso /output/istoreos-installer-x86_64.iso
-chmod -v 666 /output/istoreos-installer-x86_64.iso
+cp -v $HOME/LIVE_BOOT/debian-custom.iso /output/istoreos-installer-arm64.iso
+chmod -v 666 /output/istoreos-installer-arm64.iso
 ls -lah /output
