@@ -1,7 +1,7 @@
 #!/bin/bash
 mkdir -p openwrt
 
-REPO="xchx/armbian-installer"
+REPO="xchxtom/armbian-installer"
 TAG="save_img"
 FILE_NAME="istoreos-24.10.0-rc4-2025012013-armsr-squashfs-combined.img.gz"
 OUTPUT_PATH="openwrt/istoreos.img.gz"
