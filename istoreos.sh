@@ -2,7 +2,7 @@
 mkdir -p openwrt
 
 REPO="xchx/armbian-installer"
-TAG="2025-03-12"
+TAG="save_img"
 FILE_NAME="istoreos-24.10.0-rc4-2025012013-armsr-squashfs-combined.img.gz"
 OUTPUT_PATH="openwrt/istoreos.img.gz"
 DOWNLOAD_URL=$(curl -s https://api.github.com/repos/$REPO/releases/tags/$TAG | jq -r '.assets[] | select(.name == "'"$FILE_NAME"'") | .browser_download_url')
